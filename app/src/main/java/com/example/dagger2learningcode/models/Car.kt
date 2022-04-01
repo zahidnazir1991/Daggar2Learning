@@ -9,6 +9,8 @@ class Car{
    lateinit var  wheels: Wheels
     val Tag :String = "TestDagger"
     fun Driving(){
+        engine.StartEngine()
+        wheels.Inflate()
         Log.d(Tag,"Car is Driving")
     }
 constructor(engine: Engine,wheels: Wheels)  {

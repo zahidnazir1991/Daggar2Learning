@@ -1,4 +1,18 @@
-package com.example.dagger2learningcode.models;
+package com.example.dagger2learningcode.models
 
-public class Engine {
+import android.util.Log
+
+class Engine {
+    lateinit var piston: Piston
+    lateinit var crankShift: CrankShift
+    lateinit var sparkPlug: SparkPlug
+    val Tag :String = "TestDagger"
+    constructor(piston: Piston,crankShift: CrankShift,sparkPlug: SparkPlug){
+
+    }
+     fun StartEngine(){
+        Log.d(Tag,"Engine Started")
+
+    }
+
 }
