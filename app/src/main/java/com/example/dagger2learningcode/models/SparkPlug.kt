@@ -1,4 +1,6 @@
 package com.example.dagger2learningcode.models
 
-class SparkPlug {
+import javax.inject.Inject
+
+class SparkPlug  @Inject constructor() {
 }

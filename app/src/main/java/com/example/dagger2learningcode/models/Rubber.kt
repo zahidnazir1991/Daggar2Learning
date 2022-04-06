@@ -1,4 +1,6 @@
 package com.example.dagger2learningcode.models
 
-class Rubber {
+import javax.inject.Inject
+
+class Rubber  @Inject constructor() {
 }

@@ -1,4 +1,6 @@
 package com.example.dagger2learningcode.models
 
-class Piston {
+import javax.inject.Inject
+
+class Piston  @Inject constructor() {
 }

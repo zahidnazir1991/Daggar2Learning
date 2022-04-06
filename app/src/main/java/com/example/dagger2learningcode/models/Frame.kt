@@ -1,4 +1,6 @@
 package com.example.dagger2learningcode.models
 
-class Frame {
+import javax.inject.Inject
+
+class Frame  @Inject constructor() {
 }
